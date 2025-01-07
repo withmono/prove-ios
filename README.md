@@ -293,9 +293,9 @@ struct ProveWidgetView: UIViewControllerRepresentable {
 If you're having general trouble with Mono Prove iOS SDK or your Mono integration, please reach out to us at <hi@mono.co> or come chat with us on [Slack](https://join.slack.com/t/devwithmono/shared_invite/zt-gvkqczzk-Ldt4FQpHtOL7FFTqh4Ux6A). We're proud of our level of service, and we're more than happy to help you out with your integration to Mono.
 
 ## Contributing
-If you would like to contribute to the Mono Prove iOS SDK, please make sure to read our [contributor guidelines](https://github.com/withmono/prove-ios/tree/main/CONTRIBUTING.md).
+If you would like to contribute to the Mono Prove iOS SDK, please make sure to read our [contributor guidelines](https://github.com/withmono/prove-ios/tree/master/CONTRIBUTING.md).
 
 
 ## License
 
-[MIT](https://github.com/withmono/prove-ios/tree/main/LICENSE) for more information.
+[MIT](https://github.com/withmono/prove-ios/tree/master/LICENSE) for more information.
