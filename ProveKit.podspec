@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "ProveKit"
-spec.version      = "1.0.0"
+spec.version      = "1.0.1-alpha.1"
 spec.summary      = "Accelerate customer onboarding with the Mono Prove Widget"
 spec.description  = <<-DESC
 The Mono Prove SDK is a quick and secure way to onboard your users from within your iOS app. Mono Prove is a customer onboarding product that offers businesses faster customer onboarding and prevents fraudulent sign-ups, powered by the MDN and facial recognition technology.
