@@ -7,7 +7,7 @@ The Mono Prove SDK is a quick and secure way to onboard your users from within y
 DESC
 spec.homepage     = "https://mono.co"
 spec.license      = { :type => "MIT", :file => "LICENSE" }
-spec.author             = { "author" => "victor.o@mono.co" }
+spec.author             = { "Mono" => "victor.o@mono.co" }
 spec.documentation_url = "https://github.com/withmono/prove-ios"
 spec.platforms = { :ios => "12.0" }
 spec.swift_version = "5.4"
