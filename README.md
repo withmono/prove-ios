@@ -29,6 +29,14 @@ Then enter the URL for this package `https://github.com/withmono/prove-ios.git` 
 - Xcode 12.5 or greater
 - iOS 12.0 or greater
 - The latest version of the ProveKit
+- Add the key `Privacy - Camera Usage Description` and a usage description to your `Info.plist`.
+
+If editing `Info.plist` as text, add:
+
+```xml
+<key>NSCameraUsageDescription</key>
+<string>your usage description here</string>
+```
 
 ## To build without Rosetta
 To resolve the missing architecture issue when building on M1 and M2 Macs, please follow these instructions, particularly when building for simulator devices:
@@ -85,7 +93,7 @@ let configuration = ProveConfiguration(
 ```
 
 ### <a name="onSuccess"></a> `onSuccess`
-**((_ code: String) -> Void): Required**
+**(() -> Void): Required**
 
 The closure is called when a user has successfully verified their identity.
 
@@ -293,9 +301,9 @@ struct ProveWidgetView: UIViewControllerRepresentable {
 If you're having general trouble with Mono Prove iOS SDK or your Mono integration, please reach out to us at <hi@mono.co> or come chat with us on [Slack](https://join.slack.com/t/devwithmono/shared_invite/zt-gvkqczzk-Ldt4FQpHtOL7FFTqh4Ux6A). We're proud of our level of service, and we're more than happy to help you out with your integration to Mono.
 
 ## Contributing
-If you would like to contribute to the Mono Prove iOS SDK, please make sure to read our [contributor guidelines](https://github.com/withmono/prove-ios/tree/master/CONTRIBUTING.md).
+If you would like to contribute to the Mono Prove iOS SDK, please make sure to read our [contributor guidelines](https://github.com/withmono/prove-ios/tree/main/CONTRIBUTING.md).
 
 
 ## License
 
-[MIT](https://github.com/withmono/prove-ios/tree/master/LICENSE) for more information.
+[MIT](https://github.com/withmono/prove-ios/tree/main/LICENSE) for more information.
