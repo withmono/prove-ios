@@ -99,10 +99,7 @@ public class ProveWidget: UIViewController, WKUIDelegate {
 
         var components = URLComponents()
         components.scheme = "https"
-        components.host = "develop.d121npziv08191.amplifyapp.com"
-
-        // TODO: Update host
-        //        components.host = "prove.mono.co"
+        components.host = "prove.mono.co"
 
         // add prove session id as path
         components.path = "/\(sessionId)"
